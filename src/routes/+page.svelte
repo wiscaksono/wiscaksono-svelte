@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
+</script>
+
+<ThemeSwitch />
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat commodi enim doloremque maxime
+velit ratione porro eius dolor perferendis debitis, nesciunt similique numquam quidem vitae
+temporibus provident, quos aspernatur illo.

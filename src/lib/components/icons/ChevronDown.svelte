@@ -1,0 +1,20 @@
+<script lang="ts">
+	export let className: string = '';
+</script>
+
+<svg
+	width="24"
+	height="24"
+	viewBox="0 0 24 24"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+	class={className}
+>
+	<path
+		d="M8 10.1393C9.06206 11.6012 10.3071 12.9106 11.7021 14.0335C11.8774 14.1745 12.1226 14.1745 12.2979 14.0335C13.6929 12.9106 14.9379 11.6012 16 10.1393"
+		stroke="currentColor"
+		stroke-width="2"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+</svg>
