@@ -1,4 +1,15 @@
-<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<script lang="ts">
+	export let className = '';
+</script>
+
+<svg
+	width="26"
+	height="26"
+	viewBox="0 0 26 26"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+	class={className}
+>
 	<g clip-path="url(#clip0_1414_8124)">
 		<path
 			d="M2.27195 2.27195H7.53206V0H2.27195H0.588314H0V26H0.562735H2.27195H7.50557V23.728H2.27195V2.27195Z"

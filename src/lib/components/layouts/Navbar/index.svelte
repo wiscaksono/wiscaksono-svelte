@@ -46,12 +46,12 @@
 </script>
 
 <nav
-	class="max-w-5xl sticky z-10 shadow top-8 mx-auto p-4 rounded-lg backdrop-blur-sm dark:bg-onyx/80 bg-dark-white-25 border border-dark-white-25 dark:border-transparent my-8 flex items-center justify-between font-medium dark:text-light-gray text-onyx transition-colors"
+	class="max-w-5xl sticky z-10 top-8 mx-auto p-4 rounded-lg backdrop-blur-sm dark:bg-onyx/80 bg-dark-white-25 border border-dark-white-25 dark:border-transparent my-8 flex items-center justify-between font-medium dark:text-light-gray text-onyx transition-colors shadow-lg dark:shadow-light-card-border/10 shadow-dark-card-border/10"
 >
 	<ul class="flex items-center gap-x-10">
 		<li>
 			<a href="/" class="dark:hover:text-white transition-colors">
-				<Wiscaksono />
+				<Wiscaksono className="w-6 h-6" />
 			</a>
 		</li>
 		{#each routes as route (route.name)}

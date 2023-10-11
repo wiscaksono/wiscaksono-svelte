@@ -1,9 +1,9 @@
 [
-  {
-    "name": "Project Name",
-    "icon": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Flogos%2Fsubbi.png&w=96&q=75",
-    "description": "Subbi is a side project that I’ve built to help me keep track of how much I spend on subscriptions and also to prevent the “accidental” bill after a 14-day trail ends. It helps you keep track of bills like Netflix, Spotify, Xbox Game Pass, Bus Card, Bank Cards, and many more.",
-    "image": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fscreenshots%2Fsubbi.png&w=640&q=75",
-    "url": "https://subbi.app"
-  }
+	{
+		"name": "Project Name",
+		"icon": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Flogos%2Fsubbi.png&w=96&q=75",
+		"description": "Subbi is a side project that I’ve built to help me keep track of how much I spend on subscriptions and also to prevent the “accidental” bill after a 14-day trail ends. It helps you keep track of bills like Netflix, Spotify, Xbox Game Pass, Bus Card, Bank Cards, and many more.",
+		"image": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fscreenshots%2Fsubbi.png&w=640&q=75",
+		"url": "https://subbi.app"
+	}
 ]

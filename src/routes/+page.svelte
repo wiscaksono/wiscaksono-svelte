@@ -34,24 +34,46 @@
 
 <section class="mb-24 space-y-8">
 	<h2 class="font-bold text-48 dark:text-white text-onyx transition-colors">Get to know me</h2>
-	<ul class="grid grid-cols-2">
+	<ul class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2" style="opacity: 1;">
 		<li>
 			<a
-				class="group flex flex-col items-center justify-between overflow-hidden rounded-3xl border border-light-card-border bg-light-card-bg pt-16 transition dark:border-transparent dark:bg-onyx"
-				href="/notebook"
+				class="group flex flex-col items-center justify-between overflow-hidden rounded-3xl border-[1px] border-light-card-border bg-light-card-bg pt-16 transition dark:border-transparent dark:bg-onyx"
+				href="/about"
 			>
-				<div class="">
-					<p class="text-center text-2xl font-bold text-onyx dark:text-white">Notebook</p>
-					<p class="mt-2 text-center text-dark-gray">My thoughts, insights, and reflections</p>
+				<div>
+					<p class="text-center text-2xl font-bold text-onyx dark:text-white">About me</p>
+					<p class="mt-2 text-center text-dark-gray">Who I am and what I do</p>
 				</div>
 				<img
-					alt="Notebook"
+					alt="About me"
 					loading="lazy"
-					class="transition duration-500 ease-out origin-bottom group-hover:scale-105"
-					style="color:transparent"
+					width="505"
+					height="365"
+					decoding="async"
+					class="transition duration-500 ease-out group-hover:-rotate-6 origin-center group-hover:scale-105"
 					src="https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fillustrations%2Fabout.png&w=640&q=75"
-				/></a
+				/>
+			</a>
+		</li>
+		<li>
+			<a
+				class="group flex flex-col items-center justify-between overflow-hidden rounded-3xl border-[1px] border-light-card-border bg-light-card-bg pt-16 transition dark:border-transparent dark:bg-onyx"
+				href="/about"
 			>
+				<div>
+					<p class="text-center text-2xl font-bold text-onyx dark:text-white">About me</p>
+					<p class="mt-2 text-center text-dark-gray">Who I am and what I do</p>
+				</div>
+				<img
+					alt="About me"
+					loading="lazy"
+					width="505"
+					height="365"
+					decoding="async"
+					class="transition duration-500 ease-out group-hover:-rotate-6 origin-center group-hover:scale-105"
+					src="https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fillustrations%2Fabout.png&w=640&q=75"
+				/>
+			</a>
 		</li>
 	</ul>
 </section>
