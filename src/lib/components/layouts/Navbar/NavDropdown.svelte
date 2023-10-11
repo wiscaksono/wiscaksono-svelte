@@ -12,14 +12,14 @@
 <li class="relative">
 	<button
 		on:click={() => (isExpanded = !isExpanded)}
-		class={`flex items-center ${isExpanded && 'text-white'} transition-colors`}
+		class={`flex items-center ${isExpanded && 'dark:text-white text-onyx'} transition-colors`}
 		>{routeName}
 		<ChevronDown className={`${isExpanded && '-rotate-180'} transition-transform duration-500`} />
 	</button>
 	{#if isExpanded}
 		<ul
 			transition:slide
-			class="absolute bg-onyx/60 p-4 space-y-4 rounded-b-lg w-max top-[165%] left-1/2 -translate-x-1/2 shadow-lg backdrop-blur-lg"
+			class="absolute z-20 transition-colors p-4 space-y-4 rounded-b-lg w-max top-[170%] left-1/2 -translate-x-1/2 shadow-lg backdrop-blur-lg dark:bg-onyx/80 bg-dark-white-25 border-t-0 border border-dark-white-25 dark:border-transparent"
 		>
 			{#each subRoutes as subRoute (subRoute.name)}
 				<li aria-current={subRoute.name === $page.url.pathname ? 'page' : undefined}>

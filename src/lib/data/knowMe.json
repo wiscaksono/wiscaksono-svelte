@@ -1,0 +1,26 @@
+[
+	{
+		"title": "About me",
+		"description": "Who i am and what i do",
+		"url": "/",
+		"image": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fillustrations%2Fabout.png&w=640&q=75"
+	},
+	{
+		"title": "Notebook",
+		"description": "My thoughts, insights, and reflections",
+		"url": "/notebook",
+		"image": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fillustrations%2Fnotebook.png&w=640&q=75"
+	},
+	{
+		"title": "Bookshelf",
+		"description": "Books and pieces of wisdom I’ve enjoyed reading",
+		"url": "/bookshelf",
+		"image": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fillustrations%2Fbookshelf.png&w=640&q=75"
+	},
+	{
+		"title": "Tech Stack",
+		"description": "The dev tools and apps I use",
+		"url": "/tech-stack",
+		"image": "https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fillustrations%2Fstack.png&w=640&q=75"
+	}
+]

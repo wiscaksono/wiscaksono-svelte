@@ -23,22 +23,18 @@
 		},
 		{
 			name: 'Contact',
-			path: '/about'
+			path: '/contact'
 		},
 		{
 			name: 'More',
 			subRoutes: [
 				{
-					name: 'Bookself',
-					path: '/bookself'
+					name: 'Bookshelf',
+					path: '/bookshelf'
 				},
 				{
 					name: 'Tech Stack',
 					path: '/tech-stack'
-				},
-				{
-					name: 'This UI Kit',
-					path: '/ui-kit'
 				}
 			]
 		}
@@ -57,7 +53,13 @@
 		{#each routes as route (route.name)}
 			{#if !route.subRoutes}
 				<li aria-current={route.name === $page.url.pathname ? 'page' : undefined}>
-					<a href={route.path} class="dark:hover:text-white transition-colors">
+					<a
+						href={route.path}
+						class={`dark:hover:text-white transition-colors ${
+							$page.url.pathname === route.path &&
+							'text-onyx dark:text-white underline underline-offset-4'
+						}`}
+					>
 						{route.name}
 					</a>
 				</li>

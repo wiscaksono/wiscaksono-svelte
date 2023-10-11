@@ -14,7 +14,7 @@
 <TopGradient />
 <Navbar />
 
-<main class="container my-32">
+<main class="container my-32 min-h-screen">
 	<slot />
 </main>
 
