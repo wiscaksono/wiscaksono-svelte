@@ -8,14 +8,16 @@
 </script>
 
 <article
-	class="dark:bg-onyx bg-light-card-bg rounded-4xl overflow-hidden p-14 relative min-h-[565px] flex flex-col border dark:border-dark-card-border border-light-card-border transition-colors"
+	class="dark:bg-onyx bg-light-card-bg rounded-4xl overflow-hidden md:p-14 py-8 pl-6 pr-5 relative md:min-h-[565px] min-h-[358px] flex flex-col border dark:border-dark-card-border border-light-card-border transition-colors"
 >
-	<div class="flex flex-col gap-y-4 w-1/2 h-full flex-1">
+	<div class="flex flex-col gap-y-4 md:w-1/2 h-full flex-1">
 		<img src={project.icon} alt={project.name} class="aspect-square w-16 h-16" />
-		<h3 class="text-32 font-extrabold dark:text-white text-onyx capitalize transition-colors">
+		<h3
+			class="md:text-32 text-20 font-extrabold dark:text-white text-onyx capitalize transition-colors"
+		>
 			{project.name}
 		</h3>
-		<p class="flex-1">
+		<p class="flex-1 text-15 md:text-16">
 			{project.description}
 		</p>
 		<a

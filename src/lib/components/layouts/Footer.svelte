@@ -57,10 +57,10 @@
 	];
 </script>
 
-<footer class="relative mt-16 min-h-[326px] pb-32 md:pb-12 container">
+<footer class="relative mt-16 min-h-[326px] pb-32 md:pb-12">
 	<div class="h-px w-full bg-black/10 dark:bg-white/10 transition-colors" />
 	<div
-		class="relative z-10 mt-20 flex w-full flex-col items-start justify-between gap-12 md:h-[236px] md:flex-row"
+		class="relative z-10 mt-20 flex w-full flex-col items-start justify-between gap-12 md:h-[236px] md:flex-row container"
 	>
 		<div class="flex h-full flex-col justify-between">
 			<div class="flex flex-col">

@@ -8,14 +8,14 @@
 
 	const buttonTypes = {
 		primary:
-			'px-8 py-4 rounded-lg bg-dark-gradient shadow btn-primary-shadow flex items-center gap-x-2 text-white',
+			'px-8 py-4 rounded-lg bg-dark-gradient shadow btn-primary-shadow flex items-center justify-center gap-x-2 text-white',
 		secondary:
-			'px-8 py-4 rounded-lg dark:bg-onyx bg-light-faint-white shadow flex items-center gap-x-2 dark:text-dark-gray text-onyx transition-colors',
+			'px-8 py-4 rounded-lg dark:bg-onyx bg-light-faint-white shadow flex items-center justify-center gap-x-2 dark:text-dark-gray text-onyx transition-colors',
 		text: 'text-black flex items-center gap-x-2'
 	};
 </script>
 
-<button class={`w-max text-18 font-medium ${buttonTypes[buttonType]}`}>
+<button class={`md:w-max w-full text-18 font-medium ${buttonTypes[buttonType]}`}>
 	{#if withPlusIcon}
 		<Plus />
 	{/if}

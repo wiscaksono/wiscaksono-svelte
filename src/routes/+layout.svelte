@@ -11,11 +11,9 @@
 	<meta name="description" content="Wiscaksono's personal website" />
 </svelte:head>
 
-<TopGradient />
 <Navbar />
-
-<main class="container my-32 min-h-screen">
+<TopGradient />
+<main class="md:my-32">
 	<slot />
 </main>
-
 <Footer />

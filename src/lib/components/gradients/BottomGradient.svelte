@@ -1,85 +1,22 @@
-<svg
-	width="1440"
-	height="550"
-	viewBox="0 0 1440 550"
-	fill="none"
-	xmlns="http://www.w3.org/2000/svg"
-	class="absolute bottom-0 left-1/2 -translate-x-1/2 rotate-180 -z-50"
->
-	<g clip-path="url(#clip0_1403_8832)">
-		<g filter="url(#filter0_f_1403_8832)">
-			<ellipse
-				cx="898.121"
-				cy="7.20718"
-				rx="284.881"
-				ry="69.0584"
-				fill="#FFB800"
-				fill-opacity="0.43"
-			/>
-		</g>
-		<g filter="url(#filter1_f_1403_8832)">
-			<ellipse
-				cx="727.789"
-				cy="48.8192"
-				rx="284.881"
-				ry="131.671"
-				fill="#E93F3F"
-				fill-opacity="0.43"
-			/>
-		</g>
-		<g filter="url(#filter2_f_1403_8832)">
-			<ellipse
-				cx="504.666"
-				cy="27.3642"
-				rx="284.881"
-				ry="89.3156"
-				fill="#3F64E9"
-				fill-opacity="0.43"
-			/>
-		</g>
-	</g>
-	<defs>
-		<filter
-			id="filter0_f_1403_8832"
-			x="377.079"
-			y="-298.012"
-			width="1042.08"
-			height="610.439"
-			filterUnits="userSpaceOnUse"
-			color-interpolation-filters="sRGB"
+<script>
+	import bottomGradient from '$lib/images/bottomGradient.svg';
+</script>
+
+<div class="absolute inset-x-0 bottom-0 h-[550px]">
+	<div class="relative h-full w-full overflow-hidden">
+		<picture
+			class="absolute bottom-0 left-1/2 block h-[550px] w-[1440px] -translate-x-1/2 select-none"
 		>
-			<feFlood flood-opacity="0" result="BackgroundImageFix" />
-			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-			<feGaussianBlur stdDeviation="118.081" result="effect1_foregroundBlur_1403_8832" />
-		</filter>
-		<filter
-			id="filter1_f_1403_8832"
-			x="206.747"
-			y="-319.013"
-			width="1042.08"
-			height="735.665"
-			filterUnits="userSpaceOnUse"
-			color-interpolation-filters="sRGB"
-		>
-			<feFlood flood-opacity="0" result="BackgroundImageFix" />
-			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-			<feGaussianBlur stdDeviation="118.081" result="effect1_foregroundBlur_1403_8832" />
-		</filter>
-		<filter
-			id="filter2_f_1403_8832"
-			x="-16.3759"
-			y="-298.112"
-			width="1042.08"
-			height="650.953"
-			filterUnits="userSpaceOnUse"
-			color-interpolation-filters="sRGB"
-		>
-			<feFlood flood-opacity="0" result="BackgroundImageFix" />
-			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-			<feGaussianBlur stdDeviation="118.081" result="effect1_foregroundBlur_1403_8832" />
-		</filter>
-		<clipPath id="clip0_1403_8832">
-			<rect width="1440" height="550" fill="white" />
-		</clipPath>
-	</defs>
-</svg>
+			<img
+				class="rotate-180"
+				draggable="false"
+				alt="gradient"
+				loading="lazy"
+				decoding="async"
+				data-nimg="fill"
+				sizes="100vw"
+				src={bottomGradient}
+			/>
+		</picture>
+	</div>
+</div>
