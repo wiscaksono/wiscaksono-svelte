@@ -6,7 +6,13 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		container: {
-			center: true
+			center: true,
+			padding: '1rem',
+			screens: {
+				sm: '640px',
+				md: '768px',
+				lg: '1056px'
+			}
 		},
 		fontSize: {
 			10: ['0.625rem', { letterSpacing: '0.1px' }],

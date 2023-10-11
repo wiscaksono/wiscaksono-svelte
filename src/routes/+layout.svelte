@@ -5,10 +5,15 @@
 	import Navbar from '$lib/components/layouts/Navbar/index.svelte';
 </script>
 
+<svelte:head>
+	<title>Wiscaksono</title>
+	<meta name="description" content="Wiscaksono's personal website" />
+</svelte:head>
+
 <TopGradient />
 <Navbar />
 
-<main class="container">
+<main class="container my-32">
 	<slot />
 </main>
 
