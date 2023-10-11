@@ -35,6 +35,9 @@ export default {
 				sans: ['Inter', ...defaultTheme.fontFamily.sans],
 				nanum: ['Nanum Pen Script', 'cursive', ...defaultTheme.fontFamily.sans]
 			},
+			borderRadius: {
+				'4xl': '2rem'
+			},
 			colors: {
 				black: '#0D0D0D',
 				onyx: '#181818',

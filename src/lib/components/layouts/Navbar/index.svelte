@@ -46,7 +46,7 @@
 </script>
 
 <nav
-	class="max-w-5xl mx-auto p-4 rounded-lg backdrop-blur-sm dark:bg-onyx/30 bg-dark-white-25 border border-dark-white-25 dark:border-transparent my-8 flex items-center justify-between font-medium dark:text-light-gray text-onyx transition-colors"
+	class="max-w-5xl sticky z-10 shadow top-8 mx-auto p-4 rounded-lg backdrop-blur-sm dark:bg-onyx/80 bg-dark-white-25 border border-dark-white-25 dark:border-transparent my-8 flex items-center justify-between font-medium dark:text-light-gray text-onyx transition-colors"
 >
 	<ul class="flex items-center gap-x-10">
 		<li>
