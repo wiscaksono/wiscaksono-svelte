@@ -234,7 +234,7 @@
 		<li>
 			<a
 				class="cursor-pointer rounded-lg justify-center items-center inline-flex font-medium transition w-full bg-medium-gray py-4 text-white hover:bg-white/20 dark:bg-white/10 dark:hover:bg-white/20"
-				href="/uses">Tech stack</a
+				href="/tech-stack">Tech stack</a
 			>
 		</li>
 		<li>
