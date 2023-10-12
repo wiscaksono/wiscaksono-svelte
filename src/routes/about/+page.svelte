@@ -1,5 +1,9 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
+
 	import Signature from '$lib/components/icons/Signature.svelte';
+	import Send from '$lib/components/icons/Send.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <section class="mb-14">
@@ -76,17 +80,23 @@
 			</div>
 		</div>
 	</article>
-	<picture
-		class="block w-fit overflow-hidden rounded-2xl border border-card-border h-max sm:rotate-3 hover:rotate-0 transition-transform place-self-center md:place-self-auto"
-	>
-		<img
-			alt="Portrait of Wisnu Wicaksono"
-			class="grayscale hover:grayscale-0 transition-all"
-			loading="lazy"
-			width="344"
-			height="443"
-			decoding="async"
-			src="https://avatars.githubusercontent.com/u/63142229?v=4"
-		/>
-	</picture>
+	<div class="place-self-center md:place-self-auto space-y-10">
+		<picture
+			class="block w-fit overflow-hidden rounded-2xl border border-card-border sm:rotate-3 hover:rotate-0 transition-transform place-self-center md:place-self-auto"
+		>
+			<img
+				alt="Portrait of Wisnu Wicaksono"
+				class="grayscale hover:grayscale-0 transition-all"
+				loading="lazy"
+				width="344"
+				height="443"
+				decoding="async"
+				src="https://avatars.githubusercontent.com/u/63142229?v=4"
+			/>
+		</picture>
+		<Button className="mx-auto" on:click={() => goto('/contact')}>
+			<Send />
+			Get in touch
+		</Button>
+	</div>
 </section>

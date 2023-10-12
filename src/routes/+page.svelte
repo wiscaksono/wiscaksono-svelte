@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
+
 	import Send from '$lib/components/icons/Send.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
@@ -25,7 +27,7 @@
 			</p>
 			<div class="flex items-center gap-x-4 md:flex-row flex-col gap-y-4 w-full justify-center">
 				<Button buttonType="primary">See my resume</Button>
-				<Button buttonType="secondary">Get in touch</Button>
+				<Button buttonType="secondary" on:click={() => goto('/contact')}>Get in touch</Button>
 			</div>
 		</div>
 	</header>
@@ -35,7 +37,7 @@
 	<h2 class="font-bold md:text-48 text-32 dark:text-white text-onyx transition-colors">
 		Selected Work
 	</h2>
-	{#each projectData as project}
+	{#each projectData.slice(0, 3) as project}
 		<ProjectCard {project} />
 	{/each}
 </section>
@@ -86,8 +88,8 @@
 		</p>
 	</div>
 
-	<Button>
+	<Button on:click={() => goto('/contact')}>
 		<Send />
-		Get in touch</Button
-	>
+		Get in touch
+	</Button>
 </section>

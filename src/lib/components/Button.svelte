@@ -5,17 +5,21 @@
 	export let buttonType = 'primary' as keyof typeof buttonTypes;
 	export let withPlusIcon = false;
 	export let withChevronIcon = false;
+	export let className = '';
 
 	const buttonTypes = {
 		primary:
 			'px-8 py-4 rounded-lg bg-dark-gradient shadow btn-primary-shadow flex items-center justify-center gap-x-2 text-white',
 		secondary:
-			'px-8 py-4 rounded-lg dark:bg-onyx bg-light-faint-white shadow flex items-center justify-center gap-x-2 dark:text-dark-gray text-onyx transition-colors',
+			'px-8 py-4 rounded-lg dark:hover:text-white hover:shadow hover:btn-primary-shadow dark:bg-onyx hover:bg-dark-gradient hover:btn-primary-shadow bg-light-faint-white shadow flex items-center justify-center gap-x-2 dark:text-dark-gray text-onyx transition-colors',
 		text: 'text-black flex items-center gap-x-2'
 	};
 </script>
 
-<button class={`md:w-max w-full text-18 font-medium ${buttonTypes[buttonType]}`}>
+<button
+	on:click
+	class={`md:w-max w-full text-18 font-medium ${className} ${buttonTypes[buttonType]}`}
+>
 	{#if withPlusIcon}
 		<Plus />
 	{/if}

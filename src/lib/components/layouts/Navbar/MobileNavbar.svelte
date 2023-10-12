@@ -6,7 +6,6 @@
 	import Home from '$lib/components/icons/Home.svelte';
 	import About from '$lib/components/icons/About.svelte';
 	import Work from '$lib/components/icons/Work.svelte';
-	import Notebook from '$lib/components/icons/Notebook.svelte';
 	import Contact from '$lib/components/icons/Contact.svelte';
 	import More from '$lib/components/icons/More.svelte';
 
@@ -26,10 +25,6 @@
 		{
 			icon: Work,
 			path: '/work'
-		},
-		{
-			icon: Notebook,
-			path: '/notebook'
 		},
 		{
 			icon: Contact,
