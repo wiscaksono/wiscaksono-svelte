@@ -2,7 +2,7 @@
 	import bottomGradient from '$lib/images/bottomGradient.svg';
 </script>
 
-<div class="absolute inset-x-0 bottom-0 h-[550px]">
+<div class="absolute inset-x-0 bottom-0 h-[550px] -z-50">
 	<div class="relative h-full w-full overflow-hidden">
 		<picture
 			class="absolute bottom-0 left-1/2 block h-[550px] w-[1440px] -translate-x-1/2 select-none"

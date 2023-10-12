@@ -8,7 +8,7 @@
 </script>
 
 <section
-	class="md:mb-80 min-h-[70vh] md:min-h-0 flex items-center justify-center md:block container"
+	class="md:mb-80 min-h-[90vh] md:min-h-0 flex items-center justify-center md:block container"
 >
 	<header>
 		<div class="flex flex-col items-center justify-center">

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Wiscaksono from '../icons/Wiscaksono.svelte';
-
 	import BottomGradient from '../gradients/BottomGradient.svelte';
 
 	const categories = [

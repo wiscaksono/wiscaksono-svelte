@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 
+	export let type: 'desktop' | 'mobile' = 'desktop';
+
 	let darkMode = true;
 
 	function handleSwitchDarkMode() {
@@ -27,16 +29,25 @@
 	}
 </script>
 
-<div class="relative w-6 h-6">
-	<input
-		type="checkbox"
-		id="theme-toggle"
-		checked={darkMode}
+{#if type === 'desktop'}
+	<div class="relative w-6 h-6">
+		<input
+			type="checkbox"
+			id="theme-toggle"
+			checked={darkMode}
+			on:click={handleSwitchDarkMode}
+			class="hidden"
+		/>
+		<label for="theme-toggle" />
+	</div>
+{:else}
+	<button
 		on:click={handleSwitchDarkMode}
-		class="hidden"
-	/>
-	<label for="theme-toggle" />
-</div>
+		class="py-2 font-semibold bg-medium-gray/10 w-full rounded-md text-18"
+	>
+		Theme: {darkMode ? 'Dark' : 'Light'}
+	</button>
+{/if}
 
 <style lang="postcss">
 	#theme-toggle {

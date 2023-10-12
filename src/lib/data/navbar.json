@@ -1,0 +1,31 @@
+[
+	{
+		"name": "About",
+		"path": "/about"
+	},
+	{
+		"name": "Work",
+		"path": "/work"
+	},
+	{
+		"name": "Notebook",
+		"path": "/notebook"
+	},
+	{
+		"name": "Contact",
+		"path": "/contact"
+	},
+	{
+		"name": "More",
+		"subRoutes": [
+			{
+				"name": "Bookshelf",
+				"path": "/bookshelf"
+			},
+			{
+				"name": "Tech Stack",
+				"path": "/tech-stack"
+			}
+		]
+	}
+]

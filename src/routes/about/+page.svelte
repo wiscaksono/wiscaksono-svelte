@@ -3,8 +3,8 @@
 </script>
 
 <section class="mb-14">
-	<header class="mb-14 container">
-		<h1 class="md:text-80 text-48 font-bold dark:text-white text-onyx transition-colors">
+	<header class="md:mb-14 md:mt-0 my-14 container">
+		<h1 class="md:text-80 text-32 font-bold dark:text-white text-onyx transition-colors">
 			A little bit about me
 		</h1>
 		<p class="md:text-24 text-16">Who I am and what I do.</p>

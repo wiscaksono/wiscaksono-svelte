@@ -23,7 +23,12 @@
 		>
 			{#each subRoutes as subRoute (subRoute.name)}
 				<li aria-current={subRoute.name === $page.url.pathname ? 'page' : undefined}>
-					<a class="hover:text-white transition-colors" href={subRoute.path}>{subRoute.name}</a>
+					<a
+						class={`dark:hover:text-white transition-colors ${
+							$page.url.pathname === subRoute.path && 'underline'
+						}`}
+						href={subRoute.path}>{subRoute.name}</a
+					>
 				</li>
 			{/each}
 		</ul>
